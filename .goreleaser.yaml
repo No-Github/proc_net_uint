@@ -1,0 +1,8 @@
+project_name: main
+builds:
+  - binary: main
+    goos:
+      - windows
+    goarch:
+      - amd64
+      - arm64
